@@ -1,135 +1,130 @@
 *,
 *::before,
-*::after{
-    box-sizing: border-box;
+*::after {
+  box-sizing: border-box;
 }
-body{
-    background-color: hsl(30, 38%, 92%);
+body {
+  background-color: hsl(30, 38%, 92%);
 }
 /*font-family: 'Fraunces', serif;
 font-family: 'Montserrat', sans-serif;*/
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
+.attribution {
+  font-size: 11px;
+  text-align: center;
 }
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
-.main{
-    display: flex;
-    flex-direction: column;
-    height: 98vh;
-    justify-content: space-between;
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 98vh;
+  justify-content: space-between;
 }
-.hero{
-    margin: auto;
-    width: 98%;
-    background-color: white;
-    border-radius: 10px;
+.hero {
+  margin: auto;
+  width: 98%;
+  background-color: white;
+  border-radius: 10px;
 }
-.img{
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
-.img-desktop{
-    display: none;
+.img-desktop {
+  display: none;
 }
-.texts_hero{
-    margin: 0 1.5em 1.5em 1.5em ;
+.texts_hero {
+  margin: 0 1.5em 1.5em 1.5em;
 }
-.preview{
-    text-transform:uppercase;
-    letter-spacing: 5px;
-    font-size: .9em;
-    margin-bottom: 1em;
-
+.preview {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 0.9em;
+  margin-bottom: 1em;
 }
-h2{
-    font-family: 'Fraunces', sans-serif;
-    font-size: 2rem;
-    margin: 0;
+h2 {
+  font-family: 'Fraunces', sans-serif;
+  font-size: 2rem;
+  margin: 0;
 }
-.description{
-    line-height: 1.7em;
-    font-size: .9em;
-    margin-bottom: 1em;
+.description {
+  line-height: 1.7em;
+  font-size: 0.9em;
+  margin-bottom: 1em;
 }
 .description,
 .preview,
-.price_st{
-    font-family: 'Montserrat', sans-serif;
-    color: hsl(228, 12%, 48%);
+.price_st {
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
 }
-.prices{
-    display: flex;
-    align-items: center;
-    padding: -10px 0;
-    margin-bottom: 1em;
+.prices {
+  display: flex;
+  align-items: center;
+  padding: -10px 0;
+  margin-bottom: 1em;
 }
-.price_og{
-    font-family: 'Fraunces', sans-serif;
-    color: hsl(158, 36%, 37%);
-    font-size: 2em;
-    margin: 0;
-    margin-right: 1em;
-}
-
-.price_st{
-    text-decoration: line-through;
-    font-size: 1rem;
-    margin: 0;
+.price_og {
+  font-family: 'Fraunces', sans-serif;
+  color: hsl(158, 36%, 37%);
+  font-size: 2em;
+  margin: 0;
+  margin-right: 1em;
 }
 
-button{
-    border: 0;
-    color: white;
-    background-color: hsl(158, 36%, 37%);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    width: 100%;
-    border-radius: 10px;
-    padding: 1em 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
+.price_st {
+  text-decoration: line-through;
+  font-size: 1rem;
+  margin: 0;
+}
+
+button {
+  border: 0;
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 100%;
+  border-radius: 10px;
+  padding: 1em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
 }
 
 @media only screen and (min-width: 900px) {
-   
-    .img{
-        display: none;
-    }
-    .img-desktop{
-        display: unset;
-        height: auto;
-        width: auto;
-        height: 100%;
-    }
-    .hero{
-        display: flex;
-        height: 50%;
-        width: 700px;
-        margin: auto;
-    }
-    .texts_hero{
-        width: 40%;
-        height: 80%;
-        margin: 0 auto;
-        display: flex;
-        align-self: center;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .pic {
-        max-width: 40%
-        }
-    
-    .preview{
-        margin: 0;
-    }
+  .img {
+    display: none;
+  }
+  .img-desktop {
+    display: unset;
+    height: auto;
+    width: 100%;
+    height: 100%;
+  }
+  .hero {
+    display: flex;
+    height: 50%;
+    width: 700px;
+    margin: auto;
+  }
+  .texts_hero {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .pic {
+    max-width: 50%;
+  }
 
+  .preview {
+    margin: 0;
+  }
 }
-    

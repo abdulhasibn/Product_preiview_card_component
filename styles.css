@@ -117,24 +117,19 @@ button{
     .texts_hero{
         width: 40%;
         height: 80%;
-        margin-right: 0;
-        margin-bottom: 1em;
+        margin: 0 auto;
         display: flex;
         align-self: center;
         flex-direction: column;
         justify-content: space-between;
     }
+    .pic {
+        max-width: 40%
+        }
+    
     .preview{
         margin: 0;
     }
 
 }
-@media only screen and (min-width: 900px) {
-    .pic {
-        max-width: 40%
-        }
-    .texts__hero {
-       align-self: center;
-       margin: 0 auto;
-        }
-    }
+    

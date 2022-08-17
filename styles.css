@@ -32,6 +32,9 @@ font-family: 'Montserrat', sans-serif;*/
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+.img-desktop{
+    display: none;
+}
 .texts_hero{
     margin: 0 1.5em 1.5em 1.5em ;
 }
@@ -92,4 +95,36 @@ button{
     justify-content: center;
     align-items: center;
     gap: 1em;
+}
+
+@media only screen and (min-width: 900px) {
+   
+    .img{
+        display: none;
+    }
+    .img-desktop{
+        display: unset;
+        height: auto;
+        width: auto;
+        height: 100%;
+    }
+    .hero{
+        display: flex;
+        height: 50%;
+        width: 700px;
+        margin: auto;
+    }
+    .texts_hero{
+        width: 40%;
+        height: 80%;
+        margin-right: 0;
+        margin-bottom: 1em;
+        display: flex;
+        align-self: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .preview{
+        margin: 0;
+    }
 }

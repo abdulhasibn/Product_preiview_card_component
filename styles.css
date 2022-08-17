@@ -127,4 +127,14 @@ button{
     .preview{
         margin: 0;
     }
+
 }
+@media only screen and (min-width: 900px) {
+    .pic {
+        max-width: 40%
+        }
+    .texts__hero {
+       align-self: center;
+       margin: 0 auto;
+        }
+    }
